@@ -6,6 +6,15 @@ Our frontend stack consists of React with TypeScript and various backends using 
 
 You might have heard of http://todomvc.com/. It's a neat, but outdated project, which contains a reference implementation of a simple to-do app written in various JavaScript frameworks, libraries and dialects. In this fork we only include the typescript-react implementation in order to keep the challenge simple. The implementation is not production-ready, and your goal will be to get it there and to add new features.
 
+### Steps to Run the App
+ * yarn && yarn start
+
+### Steps to Build the App
+ * yarn build
+
+### Steps to Run the Unit test
+ * yarn test
+
 # What we care about
 
 - 🚀 What you deliver should be a production ready application
@@ -19,23 +28,23 @@ We care very much about our recruitment process in general and about the case st
 
 ### ⏱️ How many hours did you spend on completing the task?
 
-YOUR ANSWER HERE
+Around 4-5 hours
 
 ### 🤷 Are you happy with your solution/submission?
 
-YOUR ANSWER HERE
+Yes, 100%
 
 ### 🛠 What would you improve if you had more time to work on the task?
 
-YOUR ANSWER HERE
+* Probably implementing the tags sorting feature.
 
 ### 😤 What are the difficulties/problems you faced while doing the task?
 
-YOUR ANSWER HERE
+* The main difficulty was creating a system that is easy to maintain and can be reused, as well as implementing the tags feature.
 
 ### 💬 Any free form feedback you would like to share with us?
 
-YOUR ANSWER HERE
+* By combining atomic design principles with context for state management, I created a well-structured and efficient React application. The atomic design principles allow us to break down the UI into manageable components, while the context API simplifies state management and promotes code organization. This approach enhances code reusability, maintainability, and scalability of our application.
 
 # Task 1
 
@@ -44,7 +53,14 @@ Start the app by using `yarn && yarn start` and check it out at `http://localhos
 Ask yourself:
 
 - What's bad?
+   * Code quality
+   * Bad structure
+   * Hard to maintain
+   * Not using built in state management
+   * No need of routing and extra library for router
+
 - What would you do differently?
+   * I did complete refactor of the application
 - Are you missing anything in the tooling department?
 
 Apply your suggestions/improvements to the existing code and feel free to refactor as much as you like.

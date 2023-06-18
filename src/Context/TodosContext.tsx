@@ -1,25 +1,13 @@
 import React, { createContext, ReactNode, useState } from "react";
 
 import { Utils } from "../Utils";
+import { Todo } from "../Utils/TodoClass";
 
 export interface TodoData {
   id: string;
   title: string;
   completed: boolean;
   tags: string[];
-}
-
-class Todo {
-  id: string = Utils.uuid();
-  title: string;
-  completed = false;
-  tags: string[] = [];
-
-  constructor(title: string) {
-    const { text, tags } = Utils.extractTags(title);
-    this.title = text;
-    this.tags = tags;
-  }
 }
 
 interface TodosContextProps {
