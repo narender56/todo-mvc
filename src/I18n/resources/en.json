@@ -1,0 +1,16 @@
+{
+    "translation": {
+        "Active": "Active",
+        "All": "All",
+        "AppName": "TodoMVC",
+        "ClearCompleted": "Clear completed",
+        "Completed": "Completed",
+        "CreatedBy": "Created by",
+        "DoubleClickToEditTodo": "Double-click to edit a todo",
+        "MarkAllAsComplete": "Mark all as complete",
+        "PartOf": "Part of",
+        "Todos": "Todos",
+        "TodoMVC": "TodoMVC",
+        "WhatNeedsToBeDone": "What needs to be done?"
+    }
+}
