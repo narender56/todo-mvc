@@ -52,10 +52,3 @@ We would like to be able to add labels to each to-do item.
 # Task 3
 
 You'll get bonus points if you write React component tests for your newly added features 😉
-
-# How to submit your solution
-
-- Develop on a branch and create a merge request once you are done.
-- Send an email to your contact from the Unite HR team, and we will have a look at your submission.
-
-Have fun with the challenge,
